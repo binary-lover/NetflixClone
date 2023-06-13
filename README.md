@@ -1,4 +1,4 @@
-Here is the deployed link: https://binary-lover.github.io/NetflixClone/
+# Live Demo: https://binary-lover.github.io/NetflixClone/
 # Output
 ![1](https://github.com/binary-lover/NetflixClone/assets/95335243/f86defdb-0ec6-4a8d-9c9c-89d696188d1f)
 # Body
