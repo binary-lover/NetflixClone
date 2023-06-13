@@ -62,7 +62,7 @@ select{
   font-family: sans-serif;
   border: none;
   border-radius: 5px;
-  -webkit-appearance: none;
+/*   -webkit-appearance: none; */
   
 }
 
