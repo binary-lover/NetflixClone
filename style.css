@@ -1,0 +1,464 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins',"sans-serif";
+  box-sizing: border-box;
+}  
+
+body{
+  background-color: #000000;
+  color: white;
+}
+.header{
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/header-image.png");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3%;
+}
+.navbar1{
+  display: flex; 
+  margin-right: 2%;
+}
+nav img{
+  margin: 1rem;
+  width: 9.5em;
+}
+
+.svj-lang{
+  display: flex;
+  align-items: baseline;
+  margin-right: 1.5rem;
+  padding-left: 0.5rem;
+  border: 0.02rem rgba(255, 255, 255, 0.397) solid;
+  border-radius: 5px;
+}
+.svj-lang2{
+  display: flex;
+  align-items: baseline;
+  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  border: 0.02rem rgba(255, 255, 255, 0.397) solid;
+  border-radius: 5px;
+  width: 11%;
+}
+select{ 
+  width: 4.5rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.329);
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  
+}
+
+.signin{
+  width: 4.5rem;
+  height: 2rem;
+  background-color: rgb(219, 0, 0);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 5px;
+  
+}
+.earthlogo{
+  display: flex;
+  align-self: center;
+}
+.downarrow{
+  display: flex;
+  align-self: center;
+  padding: 0 0.5rem 0 0;
+}
+
+option{
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+option {
+  background-color: black;
+  color: white;
+  width: 120px !important;
+}
+
+.bodycenter{
+  width: 100%;
+  height: 50%;
+  position: relative;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 10px; */
+}
+.headline{
+  padding-top: 1.2rem;
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+.line1{
+  font-family:'Franklin Gothic ', 'Arial ', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.7rem;
+  font-stretch: normal;
+}
+.line2{
+  font-family:'Franklin Gothic ', 'Arial ', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  
+}
+.line3{
+  font-family:'Franklin Gothic ', 'Arial ', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-bottom: 1em;
+}
+
+#email{
+  width: 28em;
+  height: 4em;
+  background-color: rgba(0, 0, 0, 0.329);
+  color: white;  
+  font-family: 'Franklin Gothic ', 'Arial ', Arial, sans-serif;
+  font-size: medium;
+  border: rgba(255, 255, 255, 0.329) 1px solid;
+  border-radius: 4px;
+  padding-left: 1rem;
+  margin-right: 0.3rem;
+  margin-bottom: 5px;
+}
+
+.login ::placeholder{
+  font-family: 'Franklin Gothic ', 'Arial ', Arial, sans-serif;
+  font-size: large;
+  font-stretch: ultra-expanded;
+  color: rgba(255, 255, 255, 0.733);
+  font-weight: 400;
+}
+.getstarted{
+  position: relative;
+  top: 1px;
+  border: 0;
+  border-radius: 4px;
+  width: 10em;
+  height: 3.1em;
+  background-color: #d10000;
+  font-family: 'Franklin Gothic ', 'Arial ', Arial, sans-serif;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+  color: white;
+  font-size: 20px;
+}
+
+.getstarted:hover{
+  background-color: #a80101;
+}
+.mainhr{
+  height: 0.5em;
+  background-color: #232323;
+  border: none;
+}
+.section1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 62vh;
+  margin: 2% 5%;
+
+}
+
+.section-1-text{
+  flex-basis: 42%;
+}
+
+.feature1{
+  background-image: url(img/feature-1.png);
+  width: 42%;
+}
+
+.reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.section-2-text{
+  flex-basis: 40%;
+}
+
+.feature3{
+  background-image: url(img/feature-3.png);
+  width: 42%;
+}
+
+.faq{
+  text-align: center;
+  margin: 4% 11%;
+}
+.qlist{
+  margin-bottom: 3rem;
+}
+
+.qlist li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+
+.desc p{
+  font-family: 'sans-serif','Arial ', Arial, sans-serif;
+  font-size: 1.7rem;
+  padding: 2% 0;
+}
+
+ li label{
+  display: flex;
+  align-items: center;
+  padding: 1.8rem;
+  font-family: 'sans-serif','Arial ', Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  background: #2D2D2D;
+  margin-bottom: 0.08rem;
+  cursor: pointer;
+  position: relative;
+}
+
+label::after{
+  content: "+";
+  font-size: 3rem;
+  position: absolute;
+  right: 2rem;
+  transition: 0.5s;
+}
+li label:hover{
+  background-color: #4E4E4E;
+  transition: 0.5s;
+}
+input[type="radio"]{
+  display: none;
+}
+.qlist .desc{
+  background: #2D2D2D;
+  text-align: left;
+  padding: 0 2%;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s ;
+}
+.qlist input[type="radio"]:checked +label+ .desc{
+  max-height: 600px;
+}
+
+.qlist input[type="radio"]:checked +label::after{
+  transform: rotate(135deg);
+}
+
+.qsn, .qsn u{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.753);
+  font-family: sans-serif;
+  margin: 0 0% 2% 1%;
+}
+.footer{
+  margin: 5% 10%;
+  height: 40vh;
+}
+
+.footerlist{
+  margin-bottom: 2%;
+}
+
+.footerlist li{
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+  width: 30%;
+  color: white;
+  margin: 10px;
+}
+.footerlist a{
+  color: rgba(255, 255, 255, 0.753);
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+.copyright, .copyright a{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  font-family:sans-serif; 
+  color:rgba(255, 255, 255, 0.74);
+  font-size: 0.9rem;
+}
+@media only screen and (max-width: 500px) { 
+  .header{
+    height: 60vh;
+  }
+  nav{
+    margin: 0;
+  }
+  .navbar1{
+    margin: 0;
+  }
+  .bodycenter{
+    position: relative;
+    top: 30%;
+  }
+  nav select, #language{
+    display: none;
+  }
+
+  #netflixlogo{
+    width: 23vw;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .signin {
+    width: 17vw;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .svj-lang{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:0.5rem;
+    margin-top: 10px;
+    width: 60px;
+  }  
+  .line1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .line2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: -0.1rem;
+  }
+
+  #email{
+    width: 100%;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .getstarted{
+    width: 50%;
+    height: 3rem;
+  }
+  .bimg{
+    position: relative;
+    top: -10%;
+  }
+
+  li label{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'sans-serif','Arial ', Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    background: #2D2D2D;
+    margin-bottom: 0.08rem;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  label::after{
+    content: "+";
+    font-size: 2rem;
+    position: absolute;
+    right: 2rem;
+    transition: 0.5s;
+  }
+  .faq{
+    margin: 10% 5%;
+  }
+  .desc p{
+    font-size: 1.2rem;
+    padding: 8% 2%;
+  }
+  .qsn, .qsn u{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.753);
+    font-family: sans-serif;
+    margin: 10% 0% 2% 1%;
+  }
+  .footer{
+    margin: 5% 10%;
+    height: 40vh;
+  }
+  .footerlist li{
+    list-style: none;
+    display: inline-block;
+    /* align-items: center; */
+    width: 50%;
+    color: white;
+    margin: 10px 5px;
+  }
+  .svj-lang2{
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1300px){
+  .section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    /* margin: 2% 5%; */
+  }
+  
+  .section-1-text{
+    position: relative;
+    left: 0;
+    top: 0.5rem;
+    flex-basis: 100%;
+    width: 100%;
+  }
+  
+  .feature1{
+    background-image: url(img/feature-1.png);
+    width: 100%;
+  }
+  .feature3{
+    background-image: url(img/feature-3.png);
+    width: 100%;
+  } 
+
+}
+@media only screen and (min-width: 800px) and (max-width: 1300px){
+  .section1 img{
+    display: flex;
+    width: auto;
+  }
+  .section1{
+    display: flex;  
+    justify-content: center;
+  }
+  
+}
